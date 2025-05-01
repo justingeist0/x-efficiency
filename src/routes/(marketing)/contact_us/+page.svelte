@@ -83,13 +83,12 @@
       <ul class="list-disc list-outside pl-6 py-4 space-y-1">
         <li class="">Get a live demo</li>
         <li class="">Discuss your specific needs</li>
-        <li>Get a quote</li>
+        <li>Get a quote on buying an account</li>
         <li>Answer any technical questions you have</li>
       </ul>
       <p>Once you complete the form, we'll reach out to you! *</p>
       <p class="text-sm pt-8">
-        *Not really for this demo page, but you should say something like that
-        😉
+        *You can also message us on Telgram, WhatsApp, or 𝕏. 😉
       </p>
     </div>
   </div>

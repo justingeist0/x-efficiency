@@ -1,5 +1,5 @@
-export const WebsiteName: string = "SaaS Starter"
-export const WebsiteBaseUrl: string = "https://saasstarter.work"
+export const WebsiteName: string = "X Efficiency"
+export const WebsiteBaseUrl: string = "https://x-efficiency.fantasma.dev"
 export const WebsiteDescription: string =
-  "Open source, fast, and free to host SaaS template. Built with SvelteKit, Supabase, Stripe, Tailwind, DaisyUI, and Postgres"
+  "X Efficiency | Software + service company for 𝕏. Get more done on 𝕏 in less time."
 export const CreateProfileStep: boolean = true

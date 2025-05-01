@@ -66,7 +66,7 @@
             id="fullName"
             name="fullName"
             type="text"
-            placeholder="Your full name"
+            placeholder="Elon Musk"
             class="{fieldError(form, 'fullName')
               ? 'input-error'
               : ''} mt-1 input input-bordered w-full max-w-xs"
@@ -77,13 +77,13 @@
 
         <div class="mt-4">
           <label for="companyName">
-            <span class="text-l text-center">Company Name</span>
+            <span class="text-l text-center">X username</span>
           </label>
           <input
             id="companyName"
             name="companyName"
             type="text"
-            placeholder="Company name"
+            placeholder="@elonmusk"
             class="{fieldError(form, 'companyName')
               ? 'input-error'
               : ''} mt-1 input input-bordered w-full max-w-xs"
@@ -94,13 +94,13 @@
 
         <div class="mt-4">
           <label for="website">
-            <span class="text-l text-center">Company Website</span>
+            <span class="text-l text-center">What's your main goal?</span>
           </label>
           <input
             id="website"
             name="website"
             type="text"
-            placeholder="Company website"
+            placeholder="e.g. grow audience, book calls, spread propaganda"
             class="{fieldError(form, 'website')
               ? 'input-error'
               : ''} mt-1 input input-bordered w-full max-w-xs"

@@ -1,6 +1,6 @@
 export const blogInfo = {
-  name: "SaaS Starter Blog",
-  description: "A sample blog",
+  name: "X Efficiency Blog",
+  description: "Tips on how to turn X into a lead generation powerhouse + The latest news and updates from X Efficiency",
 }
 
 export type BlogPost = {
@@ -15,22 +15,10 @@ export type BlogPost = {
 // Create a page in the "(posts)" directory for each entry
 const blogPosts: BlogPost[] = [
   {
-    title: "How we built a beautiful 41kb SaaS website with this template",
-    description: "How to use this template you to bootstrap your own site.",
-    link: "/blog/how_we_built_our_41kb_saas_website",
-    date: "2024-03-10",
-  },
-  {
-    title: "Example Blog Post 2",
-    description: "Even more example content!",
-    link: "/blog/awesome_post",
-    date: "2022-9-23",
-  },
-  {
-    title: "Example Blog Post",
-    description: "A sample blog post, showing our blog engine",
-    link: "/blog/example_blog_post",
-    date: "2023-03-13",
+    title: "We are open for business",
+    description: "X Efficiency is officially launched. We are excited to give access to our software to you and continue to make it the best thing to ever happen for your business on X.",
+    link: "/blog/released",
+    date: "2025-05-01",
   },
 ]
 
