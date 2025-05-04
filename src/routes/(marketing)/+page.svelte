@@ -144,7 +144,7 @@
         ></iframe>
       </div>
 
-      <div>Our propiertary software we use to get remarkable results.</div>
+      <div>The proprietary software we use to get remarkable results.</div>
     </div>
   </div>
 </div>
@@ -252,14 +252,14 @@
         <div class="collapse collapse-arrow join-item border border-primary">
           <input type="radio" name="faq-accordion" />
           <div class="collapse-title text-lg font-medium">
-            What happens if I buy Empire or Overlord?
+            What happens if I buy Hands-Free or Full Managed?
           </div>
           <div class="collapse-content">
             <p>
               We get started within a few hours. We'll be in contact via message
               to get all the information we need. No call needed, but we can hop
-              on a call if you want. Contact us via telegram or whatsapp if you
-              have any questions.
+              on a call if you want. Contact us via telegram or X if you have
+              any questions.
             </p>
           </div>
         </div>
@@ -271,8 +271,8 @@
           <div class="collapse-content">
             <p>
               Yes, we have a 7 day no questions asked refund policy. Just get in
-              contact with us, provide your email, and we'll refund you. Zero
-              risk to move forward right now.
+              contact with us and we'll refund you. Zero risk to move forward
+              right now.
             </p>
           </div>
         </div>
@@ -321,7 +321,7 @@
           >
           <span class="text-sm mt-2">Telegram</span>
         </a>
-        <a
+        <!-- <a
           href="https://wa.me/+1234567890"
           target="_blank"
           class="flex flex-col items-center hover:text-primary transition-colors"
@@ -489,7 +489,7 @@
             </g></svg
           >
           <span class="text-sm mt-2">WhatsApp</span>
-        </a>
+        </a> -->
         <a
           href="https://x.com/fantasmadev"
           target="_blank"

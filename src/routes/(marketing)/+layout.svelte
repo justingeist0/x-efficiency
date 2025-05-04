@@ -15,11 +15,6 @@
   </div>
   <div class="flex-none">
     <ul class="menu menu-horizontal px-1 hidden sm:flex font-bold text-lg">
-      <li class="md:mx-4">
-        <a href="/contact_us" class="border border-primary"
-          >★ Buy/Sell 𝕏 Accounts</a
-        >
-      </li>
       <li class="md:mx-2"><a href="/blog">Blog</a></li>
       <li class="md:mx-2"><a href="/pricing">Pricing</a></li>
       <li class="md:mx-2"><a href="/account">Account</a></li>
@@ -65,11 +60,6 @@
         <li><a href="/pricing">Pricing</a></li>
         <li><a href="/account">Account</a></li>
         <li><a href="/search">Search</a></li>
-        <li class="md:mx-4">
-          <a href="/contact_us" class="border border-primary"
-            >★ Buy/Sell 𝕏 Accounts</a
-          >
-        </li>
       </ul>
     </div>
   </div>

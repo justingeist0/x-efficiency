@@ -88,7 +88,8 @@
       </ul>
       <p>Once you complete the form, we'll reach out to you! *</p>
       <p class="text-sm pt-8">
-        *You can also message us on Telgram, WhatsApp, or 𝕏. 😉
+        *You can also put your phone number in the message field and we'll call
+        or text you.
       </p>
     </div>
   </div>
