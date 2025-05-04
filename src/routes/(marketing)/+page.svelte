@@ -120,7 +120,7 @@
         class="text-3xl md:text-5xl font-bold px-2"
         style="line-height: 1.2;"
       >
-        X Efficiency helps you grow and sell on 𝕏... Fast.
+        X Efficiency helps you grow and sell on 𝕏.
       </div>
       <div>We are a SaaS + service company for 𝕏.</div>
       <div class="mt-6 md:mt-10 text-sm md:text-lg">

@@ -23,12 +23,12 @@
     { id: "fullName", label: "Name", initialValue: profile?.full_name ?? "" },
     {
       id: "companyName",
-      label: "Company Name",
+      label: "X Account",
       initialValue: profile?.company_name ?? "",
     },
     {
       id: "website",
-      label: "Company Website",
+      label: "Main Goal",
       initialValue: profile?.website ?? "",
     },
   ]}

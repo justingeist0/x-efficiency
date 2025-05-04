@@ -77,7 +77,7 @@
 
         <div class="mt-4">
           <label for="companyName">
-            <span class="text-l text-center">X username</span>
+            <span class="text-l text-center">X Username</span>
           </label>
           <input
             id="companyName"
@@ -100,7 +100,7 @@
             id="website"
             name="website"
             type="text"
-            placeholder="e.g. grow audience, book calls, spread propaganda"
+            placeholder="e.g. grow audience, book calls"
             class="{fieldError(form, 'website')
               ? 'input-error'
               : ''} mt-1 input input-bordered w-full max-w-xs"

@@ -32,13 +32,13 @@
     },
     {
       id: "companyName",
-      label: "Company Name",
+      label: "X Account",
       initialValue: profile?.company_name ?? "",
       maxlength: 50,
     },
     {
       id: "website",
-      label: "Company Website",
+      label: "Main Goal",
       initialValue: profile?.website ?? "",
       maxlength: 50,
     },
