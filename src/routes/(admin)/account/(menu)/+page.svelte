@@ -15,17 +15,17 @@
 
 <h1 class="text-2xl font-bold mb-1">Dashboard</h1>
 
-<!-- <div class="relative w-full max-w-2xl aspect-video mt-4">
+<div class="relative w-full max-w-2xl aspect-video mt-4">
   <iframe
     class="absolute top-0 left-0 w-full h-full"
-    src="https://www.youtube.com/embed/XNOO9azmApw?si=GwTHKeKkhwHGCmMv"
+    src="https://www.youtube.com/embed/67Q_-BRhUpI?si=GwTHKeKkhwHGCmMv"
     title="YouTube video player"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     referrerpolicy="strict-origin-when-cross-origin"
     allowfullscreen
   ></iframe>
-</div> -->
+</div>
 
 {#if !data.isActiveCustomer}
   <div class="alert alert-error max-w-lg mt-2">
