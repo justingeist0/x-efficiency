@@ -19,7 +19,7 @@
     {
       name: "DM Commenters",
       description:
-        "Bulk messages the commenters on any post in 1 click. These are the most active accounts on X.",
+        "Turn viral traffic into leads by instantly messaging the most engaged users on any post — no more manual outreach.",
       link: "/account",
       linkText: "Try now",
       newPage: false,
@@ -28,7 +28,7 @@
     {
       name: "Audience Hijack",
       description:
-        "Hijack viral tweet traffic by messaging all commenters. Convert attention into business.",
+        "Capture the spotlight from viral tweets and convert it into business opportunities. Steal attention from top creators effortlessly.",
       link: "/account",
       linkText: "Try now",
       newPage: false,
@@ -37,7 +37,7 @@
     {
       name: "X Bulk DM Tool",
       description:
-        "Send mass DMs without wasting time. Scale outreach effortlessly on X.",
+        "Reach hundreds of users with your offer in minutes. Scale your outbound without burning hours of your day.",
       link: "/account",
       linkText: "Try now",
       newPage: false,
@@ -46,7 +46,7 @@
     {
       name: "X Account Keyword Finder",
       description:
-        "Find X accounts using keywords to pinpoint your exact target audience.",
+        "Find your dream clients on X using just a few keywords. Stop guessing and start connecting with the right people.",
       link: "/account",
       linkText: "Try now",
       newPage: false,
@@ -55,7 +55,7 @@
     {
       name: "X Warm Lead Finder",
       description:
-        "Find users who engage with your niche. Skip the cold leads.",
+        "Get in front of people who already care about your niche. Skip the cold approach and message users ready to buy.",
       link: "/account",
       linkText: "Try now",
       newPage: false,
@@ -64,7 +64,7 @@
     {
       name: "X List Scraper",
       description:
-        "Export lists of X users based on your filters. Build data-driven growth lists.",
+        "Build targeted lists of potential clients in seconds. Perfect for outbound campaigns, retargeting, or list-based strategy.",
       link: "/account",
       linkText: "Try now",
       newPage: false,
@@ -72,7 +72,8 @@
     },
     {
       name: "Text Support",
-      description: "Get your X questions answered by the top growth experts.",
+      description:
+        "Need help with growth? Get real answers from expert X strategists so you're never stuck guessing what to do.",
       link: "/pricing",
       linkText: "Explore",
       newPage: false,
@@ -81,7 +82,7 @@
     {
       name: "Done for You DMs",
       description:
-        "100 outbound DMs sent every day. All DMs answered every day by trained virtual assistants.",
+        "Let our trained assistants send 100+ high-converting DMs for you every day — so you can focus on closing, not outreach.",
       link: "/pricing",
       linkText: "Explore",
       newPage: false,
@@ -90,7 +91,7 @@
     {
       name: "Done for You Replies",
       description:
-        "50 replies done for you every day. Written by humans, not AI.",
+        "We reply for you 50 times a day with human-written messages that drive conversations and boost visibility.",
       link: "/pricing",
       linkText: "Explore",
       newPage: false,
@@ -109,20 +110,20 @@
 
 <div class="hero min-h-[60vh]">
   <div class="hero-content text-center py-12">
-    <div class="max-w-xl">
+    <div class="max-w-3xl">
       <div
-        class="text-xl md:text-3xl font-bold bg-clip-text text-transparent bg-linear-to-r from-primary to-accent mb-3 md:mb-7 pb-1"
+        class="text-xl md:text-2xl font-bold bg-clip-text text-transparent bg-linear-to-r from-primary to-accent mb-3 md:mb-7 pb-1"
       >
-        Get more done on 𝕏 in less time.
+        Turn 1 Hour/Day Into a Month Full of Sales Calls
       </div>
 
       <div
-        class="text-3xl md:text-5xl font-bold px-2"
+        class="text-2xl md:text-3xl font-bold px-2"
         style="line-height: 1.2;"
       >
-        X Efficiency helps you grow and sell on 𝕏.
+        Book 30+ sales calls every month with 1hr/day without getting
+        shadowbanned through <br />a safe tool that runs in your browser
       </div>
-      <div>We are a SaaS + service company for 𝕏.</div>
       <div class="mt-6 md:mt-10 text-sm md:text-lg">
         Watch this demo to see <span
           class="font-bold underline decoration-secondary decoration-2"
@@ -144,7 +145,7 @@
         ></iframe>
       </div>
 
-      <div>The proprietary software we use to get remarkable results.</div>
+      <div>Used daily to grow accounts and book sales calls.</div>
     </div>
   </div>
 </div>
@@ -152,17 +153,12 @@
   <div class="pt-20 pb-8 px-7">
     <div class="max-w-lg mx-auto text-center">
       <div
-        class="text-3xl md:text-5xl font-bold bg-clip-text text-transparent bg-linear-to-r from-primary to-accent pb-2"
+        class="text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-linear-to-r from-primary to-accent pb-2"
       >
-        Our Benefits
+        How This Grows Your X
       </div>
       <div class="mt-4 text-xl font-bold">
-        more engagment, more leads, more sales,
-        <span
-          class="underline decoration-secondary decoration-[3px] md:decoration-[4px]"
-        >
-          less work</span
-        >
+        Boost engagement, generate leads, increase sales—while saving time.
       </div>
     </div>
 
@@ -213,7 +209,7 @@
 <div class="min-h-[70vh] pb-8 pt-[5vh] px-4">
   <h1 class="text-3xl font-bold text-center">Pricing</h1>
   <h2 class="text-xl text-center text-slate-500 mt-1 pb-3">
-    a lot less work, more leads, more engagement
+    More leads. Less work. Everything handled — your way.
   </h2>
 
   <div class="w-full my-8">

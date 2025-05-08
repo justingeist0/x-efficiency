@@ -1,20 +1,20 @@
 export const defaultPlanId = "free"
 
 export const pricingPlans = [
-  // {
-  //   id: "free",
-  //   name: "Demo (Free)",
-  //   description: "Test the tool out with rate limits meaning the automations run a lot slower and limits on core functionality.",
-  //   price: "$0",
-  //   priceIntervalName: "per month",
-  //   stripe_price_id: null,
-  //   features: ["Demo access to software", "No credit card required"],
-  // },
+  {
+    id: "free",
+    name: "Demo",
+    description: "Test a free version of the tool. Coming soon. Sign up to get notified.",
+    price: "$0",
+    priceIntervalName: "per month",
+    stripe_price_id: null,
+    features: ["Demo access to software", "No credit card required"],
+  },
   {
     id: "pro",
     name: "Pro",
     description:
-      "Full access to X Efficiency. More engagement, more leads, in less time. Bulk DMs, profile finder, and more.",
+      "Get full access to the entire X Efficiency toolkit. Generate more leads, send high-converting DMs, and grow with less effort.",
     price: "$49",
     priceIntervalName: "per month",
     stripe_price_id: "price_1RKOk2Alo9KCTI03xlNFzlxL",
@@ -22,37 +22,37 @@ export const pricingPlans = [
     features: [
       "Unlimited DMs",
       "Find unlimited profiles",
-      "1 on 1 Strategy Chat via DM",
+      "Access to every growth feature",
     ],
   },
   {
     id: "enterprise",
-    name: "Hands-Free",
+    name: "Fully Managed",
     description:
-      "We handle all your DMs to drive sales and account growth on autopilot. You do the rest.",
-    price: "$997",
+      "Let us run your daily outbound and everything else for you on X. 100 hand-crafted DMs sent every day, replies managed, and your inbox stays warm.",
+    price: "$997+",
     priceIntervalName: "per month",
     stripe_price_id: "price_1RKOmtAlo9KCTI0384ZeVQsq",
     stripe_product_id: "prod_SEsXQD8k2wy45O",
     features: [
-      "We reply to your DMs.",
-      "We send 100 DMs daily.",
-      "+ 1 year access to the Pro plan.",
+      "100 Outbound DMs Sent Daily",
+      "All DMs Answered by Our Team",
+      "* Contact us to book call."
     ],
   },
-  {
-    id: "dfy",
-    name: "Fully Managed",
-    description:
-      "We manage the content and run your lead generation + nurturing machine so you never need to go on X.",
-    price: "$2997",
-    priceIntervalName: "per month",
-    stripe_price_id: "price_1RKOnaAlo9KCTI03fOZcXcD4",
-    stripe_product_id: "prod_SEsYMP5shG0KEX",
-    features: [
-      "We do 50 replies per day.",
-      "We post 2 time daily.",
-      "+ Everything in Hands-Free.",
-    ],
-  },
+  // {
+  //   id: "dfy",
+  //   name: "Fully Managed",
+  //   description:
+  //     "We manage the content and run your lead generation + nurturing machine so you never need to go on X.",
+  //   price: "$2997",
+  //   priceIntervalName: "per month",
+  //   stripe_price_id: "price_1RKOnaAlo9KCTI03fOZcXcD4",
+  //   stripe_product_id: "prod_SEsYMP5shG0KEX",
+  //   features: [
+  //     "We do 50 replies per day.",
+  //     "We post 2 time daily.",
+  //     "+ Everything in Hands-Free.",
+  //   ],
+  // },
 ]
