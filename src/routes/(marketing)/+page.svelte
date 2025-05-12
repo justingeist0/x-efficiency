@@ -133,16 +133,17 @@
       <div
         class="mt-6 md:mt-4 flex flex-row flex-wrap gap-4 place-content-center"
       >
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/F16oF9_84Yk?si=-1aw4Kv9LJIRKWGu"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
+        <div class="relative w-full max-w-[560px] aspect-video">
+          <iframe
+            class="absolute top-0 left-0 w-full h-full"
+            src="https://www.youtube.com/embed/F16oF9_84Yk?si=-1aw4Kv9LJIRKWGu"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
       </div>
 
       <div>Used daily to grow accounts and book sales calls.</div>
