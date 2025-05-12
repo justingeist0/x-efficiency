@@ -32,7 +32,7 @@ export const load: PageServerLoad = async ({
   if (idError || !customerId) {
     console.error("Error creating customer id", idError)
     error(500, {
-      message: "Unknown error. If issue persists, please contact us.",
+      message: "Error creating customer ID. If issue persists, please contact us. ",
     })
   }
 
@@ -46,7 +46,7 @@ export const load: PageServerLoad = async ({
   if (fetchErr) {
     console.error("Error fetching subscription", fetchErr)
     error(500, {
-      message: "Unknown error. If issue persists, please contact us.",
+      message: "Unknown fetching subscription. If issue persists, please contact us.",
     })
   }
 
