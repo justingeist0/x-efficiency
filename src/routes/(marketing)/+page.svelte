@@ -114,15 +114,15 @@
       <div
         class="text-xl md:text-2xl font-bold bg-clip-text text-transparent bg-linear-to-r from-primary to-accent mb-3 md:mb-7 pb-1"
       >
-        Turn 1 Hour/Day Into a Month Full of Sales Calls
+        Do more DMs in less time on X
       </div>
 
       <div
         class="text-2xl md:text-3xl font-bold px-2"
         style="line-height: 1.2;"
       >
-        Book 30+ sales calls every month with 1hr/day without getting
-        shadowbanned through <br />a safe tool that runs in your browser
+        Gather leads & send unlimited DMs automatically directly from your web
+        browser.
       </div>
       <div class="mt-6 md:mt-10 text-sm md:text-lg">
         Watch this demo to see <span
