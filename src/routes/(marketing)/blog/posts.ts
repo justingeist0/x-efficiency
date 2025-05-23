@@ -1,6 +1,6 @@
 export const blogInfo = {
-  name: "X Efficiency Blog",
-  description: "Tips on how to turn X into a lead generation powerhouse + The latest news and updates from X Efficiency",
+  name: "DM Dad Blog",
+  description: "Tips on how to turn X into a lead generation powerhouse + The latest news and updates.",
 }
 
 export type BlogPost = {
@@ -16,9 +16,15 @@ export type BlogPost = {
 const blogPosts: BlogPost[] = [
   {
     title: "We are open for business",
-    description: "X Efficiency is officially launched. We are excited to give access to our software to you and continue to make it the best thing to ever happen for your business on X.",
+    description: "DM Dad is officially launched. We are excited to give access to our software to you and continue to make it the best thing to ever happen for your business on X.",
     link: "/blog/released",
     date: "2025-05-01",
+  },
+  {
+    title: "How to install DM Dad for X / Twitter",
+    description: "Add DM Dad to whatever browser you use within 2 minutes.",
+    link: "/blog/install",
+    date: "2025-05-18",
   },
 ]
 

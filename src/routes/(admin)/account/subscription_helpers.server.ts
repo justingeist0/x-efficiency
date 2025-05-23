@@ -128,3 +128,72 @@ export const fetchSubscription = async ({
     hasEverHadSubscription,
   }
 }
+
+export const needsStripeSync = async ({
+  supabaseServiceRole,
+  user,
+}: {
+  supabaseServiceRole: SupabaseClient<Database>
+  user: User
+}) => {
+  const { data: profile, error: profileError } = await supabaseServiceRole
+    .from("profiles")
+    .select(`plan, last_stripe_sync`)
+    .eq("id", user.id)
+    .single()
+  if (profileError) {
+    return { error: profileError }
+  }
+
+  if (!profile.last_stripe_sync) {
+    return { needsSync: true }
+  }
+
+  const lastSync = new Date(profile.last_stripe_sync)
+  const now = new Date()
+  const diffTime = Math.abs(now.getTime() - lastSync.getTime())
+  const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24))
+
+  if (diffDays > 1) {
+    return { needsSync: true }
+  }
+  return { needsSync: false, user }
+}
+export const isUserUpdatedWithinLast12Hours = async ({
+  user,
+}: {
+  user: User
+}) => {
+  if (!user.updated_at) {
+    return false;
+  }
+
+  const lastUpdate = new Date(user.updated_at);
+  const now = new Date();
+  const diffTime = Math.abs(now.getTime() - lastUpdate.getTime());
+  const diffHours = diffTime / (1000 * 60 * 60);
+
+  return diffHours <= 12;
+}
+
+
+export const updateUserSubscription = async ({
+  supabaseServiceRole,
+  userId,
+  plan,
+  lastStripeSync,
+}: {
+  supabaseServiceRole: SupabaseClient<Database>
+  userId: string
+  plan: string
+  lastStripeSync: Date
+}) => {
+  const { error } = await supabaseServiceRole
+    .from("profiles")
+    .update({
+      plan,
+      last_stripe_sync: lastStripeSync,
+    })
+    .eq("id", userId)
+  return { error }
+}

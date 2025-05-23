@@ -19,25 +19,15 @@
     {
       name: "DM Commenters",
       description:
-        "Turn viral traffic into leads by instantly messaging the most engaged users on any post — no more manual outreach.",
+        "Collect all commenters on any post, filter them, and send them a DM with 1 click.",
       link: "/account",
       linkText: "Try now",
       newPage: false,
       svgContent: `<svg viewBox="0 0 24 24" fill="none" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5l-4-4V5a2 2 0 0 1 2-2h4"/><polyline points="17 2 22 2 22 7"/><line x1="12" y1="12" x2="22" y2="2"/></svg>`,
     },
     {
-      name: "Audience Hijack",
-      description:
-        "Capture the spotlight from viral tweets and convert it into business opportunities. Steal attention from top creators effortlessly.",
-      link: "/account",
-      linkText: "Try now",
-      newPage: false,
-      svgContent: `<svg viewBox="0 0 24 24" fill="none" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>`,
-    },
-    {
       name: "X Bulk DM Tool",
-      description:
-        "Reach hundreds of users with your offer in minutes. Scale your outbound without burning hours of your day.",
+      description: "Upload a list of accounts and send them a DM with 1 click.",
       link: "/account",
       linkText: "Try now",
       newPage: false,
@@ -46,7 +36,7 @@
     {
       name: "X Account Keyword Finder",
       description:
-        "Find your dream clients on X using just a few keywords. Stop guessing and start connecting with the right people.",
+        "Enter keywords and find every account that match them automatically with 1 click.",
       link: "/account",
       linkText: "Try now",
       newPage: false,
@@ -55,7 +45,7 @@
     {
       name: "X Warm Lead Finder",
       description:
-        "Get in front of people who already care about your niche. Skip the cold approach and message users ready to buy.",
+        "Ccollect all profiles who liked or commented on an account with 1 click.",
       link: "/account",
       linkText: "Try now",
       newPage: false,
@@ -63,41 +53,12 @@
     },
     {
       name: "X List Scraper",
-      description:
-        "Build targeted lists of potential clients in seconds. Perfect for outbound campaigns, retargeting, or list-based strategy.",
+      description: "Collect all profiles from a list with 1 click.",
       link: "/account",
       linkText: "Try now",
       newPage: false,
       svgContent: `<svg viewBox="0 0 24 24" fill="none" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>`,
     },
-    {
-      name: "Text Support",
-      description:
-        "Need help with growth? Get real answers from expert X strategists so you're never stuck guessing what to do.",
-      link: "/pricing",
-      linkText: "Explore",
-      newPage: false,
-      svgContent: `<svg viewBox="0 0 24 24" fill="none" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10z"/><path d="M8 9h.01M12 9h.01M16 9h.01"/></svg>`,
-    },
-    {
-      name: "Done for You DMs",
-      description:
-        "Let our trained assistants send 100+ high-converting DMs for you every day — so you can focus on closing, not outreach.",
-      link: "/pricing",
-      linkText: "Explore",
-      newPage: false,
-      svgContent: `<svg viewBox="0 0 24 24" fill="none" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/><path d="M12 12h.01M8 12h.01M16 12h.01"/></svg>`,
-    },
-    {
-      name: "Done for You Replies",
-      description:
-        "We reply for you 50 times a day with human-written messages that drive conversations and boost visibility.",
-      link: "/pricing",
-      linkText: "Explore",
-      newPage: false,
-      svgContent: `<svg viewBox="0 0 24 24" fill="none" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>`,
-    },
-    // ... continue with remaining features if you'd like me to complete all 24
   ]
 </script>
 
@@ -114,22 +75,28 @@
       <div
         class="text-xl md:text-2xl font-bold bg-clip-text text-transparent bg-linear-to-r from-primary to-accent mb-3 md:mb-7 pb-1"
       >
-        Do more DMs in less time on X
+        Find + DM high-value accounts on X (Twitter) efficiently.
       </div>
 
       <div
         class="text-2xl md:text-3xl font-bold px-2"
         style="line-height: 1.2;"
       >
-        Gather leads & send unlimited DMs automatically directly from your web
+        Gather leads & send unlimited DMs semi-automatically from your web
         browser.
       </div>
+
       <div class="mt-6 md:mt-10 text-sm md:text-lg">
         Watch this demo to see <span
           class="font-bold underline decoration-secondary decoration-2"
-          >X Efficiency</span
-        > in action:
+          >DM Dad</span
+        >
+        get
+        <span class="font-bold underline decoration-secondary decoration-2"
+          >one click leads</span
+        >.
       </div>
+
       <div
         class="mt-6 md:mt-4 flex flex-row flex-wrap gap-4 place-content-center"
       >
@@ -146,21 +113,41 @@
         </div>
       </div>
 
-      <div>Used daily to grow accounts and book sales calls.</div>
+      <div class="mt-6 text-sm md:text-lg text-center">
+        <span class="font-bold text-primary">Only 2 users</span> are using this tool
+        right now - giving you a massive competitive advantage.
+      </div>
     </div>
   </div>
 </div>
+
+<div class="flex place-content-center">
+  <a
+    href="https://chromewebstore.google.com/detail/x-efficiency/klgcdbmldddogdpemiedckcmebgmpiml"
+    target="_blank"
+    class="inline-block mt-6 group"
+  >
+    <button
+      class="btn btn-primary btn-lg gap-2 group-hover:btn-primary-focus transition-all duration-200 flex-col p-8 hover:shadow-xl hover:-translate-y-0.5 active:translate-y-0 active:shadow-md rounded-xl"
+    >
+      <div class="flex items-center gap-2">
+        <img src="/images/chromelogo.svg" alt="Chrome Logo" class="w-6 h-6" />
+        Download Chrome Extension
+      </div>
+      <div class="text-sm opacity-80">Unlimited DMs & Leads — Free</div>
+    </button>
+  </a>
+</div>
+
 <div class="min-h-[60vh]">
   <div class="pt-20 pb-8 px-7">
     <div class="max-w-lg mx-auto text-center">
       <div
         class="text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-linear-to-r from-primary to-accent pb-2"
       >
-        How This Grows Your X
+        One Click Tools
       </div>
-      <div class="mt-4 text-xl font-bold">
-        Boost engagement, generate leads, increase sales—while saving time.
-      </div>
+      <div class="mt-4 text-xl font-bold">Get leads in one click.</div>
     </div>
 
     <div
@@ -207,15 +194,27 @@
   </div>
 </div>
 
-<div class="min-h-[70vh] pb-8 pt-[5vh] px-4">
-  <h1 class="text-3xl font-bold text-center">Pricing</h1>
-  <h2 class="text-xl text-center text-slate-500 mt-1 pb-3">
-    More leads. Less work. Everything handled — your way.
-  </h2>
+<div class="flex place-content-center">
+  <a
+    href="https://chromewebstore.google.com/detail/x-efficiency/klgcdbmldddogdpemiedckcmebgmpiml"
+    target="_blank"
+    class="inline-block mt-6 group"
+  >
+    <button
+      class="btn btn-primary btn-lg gap-2 group-hover:btn-primary-focus transition-all duration-200 flex-col p-8 hover:shadow-xl hover:-translate-y-0.5 active:translate-y-0 active:shadow-md rounded-xl"
+    >
+      <div class="flex items-center gap-2">
+        <img src="/images/chromelogo.svg" alt="Chrome Logo" class="w-6 h-6" />
+        Download Chrome Extension
+      </div>
+      <div class="text-sm opacity-80">Unlimited DMs & Leads — Free</div>
+    </button>
+  </a>
+</div>
 
+<div class="min-h-[70vh] pb-8 pt-[1vh] px-4 flex flex-col items-center">
   <div class="w-full my-8">
-    <PricingModule callToAction="Get Started" highlightedPlanId="pro" />
-    <h1 class="text-2xl font-bold text-center mt-24">Pricing FAQ</h1>
+    <h1 class="text-2xl font-bold text-center mt-24">FAQs</h1>
 
     <div class="flex place-content-center">
       <div class="join join-vertical max-w-xl py-6 mx-auto">
@@ -226,8 +225,9 @@
           </div>
           <div class="collapse-content">
             <p>
-              Yup! It is undetectable by 𝕏. No one has ever been banned for
-              using X Efficiency.
+              Yes. It runs in the browser, X has no idea what's going on in the
+              browser. It's the same as hiring someone to do all this research
+              and outreach for you.
             </p>
           </div>
         </div>
@@ -238,38 +238,10 @@
           </div>
           <div class="collapse-content">
             <p>
-              You need a 𝕏 premium account ($8/month) at least 6 months old to
-              send up to 500 DMs every day. <br /><br />If you don't have an
-              aged X premium account, you can only send around 20 messages per
-              day before X prevents you from sending more messages. <br /><br
-              />If you want to buy an aged premium account contact us.
-            </p>
-          </div>
-        </div>
-        <div class="collapse collapse-arrow join-item border border-primary">
-          <input type="radio" name="faq-accordion" />
-          <div class="collapse-title text-lg font-medium">
-            What happens if I buy Hands-Free or Full Managed?
-          </div>
-          <div class="collapse-content">
-            <p>
-              We get started within a few hours. We'll be in contact via message
-              to get all the information we need. No call needed, but we can hop
-              on a call if you want. Contact us via telegram or X if you have
-              any questions.
-            </p>
-          </div>
-        </div>
-        <div class="collapse collapse-arrow join-item border border-primary">
-          <input type="radio" name="faq-accordion" />
-          <div class="collapse-title text-lg font-medium">
-            Can I get a refund?
-          </div>
-          <div class="collapse-content">
-            <p>
-              Yes, we have a 7 day no questions asked refund policy. Just get in
-              contact with us and we'll refund you. Zero risk to move forward
-              right now.
+              Nothing, but you need a 𝕏 premium account ($8/month) at least 6
+              months old to send up to 500 DMs every day. <br /><br />If you
+              don't have an aged X premium account, you can only send around 20
+              messages per day before X prevents you from sending more messages.
             </p>
           </div>
         </div>

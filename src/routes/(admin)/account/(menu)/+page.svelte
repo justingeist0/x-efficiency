@@ -1,9 +1,6 @@
 <script lang="ts">
   import { getContext } from "svelte"
   import type { Writable } from "svelte/store"
-  let { data } = $props()
-
-  console.log(data)
 
   let adminSection: Writable<string> = getContext("adminSection")
   adminSection.set("home")
@@ -15,79 +12,22 @@
 
 <h1 class="text-2xl font-bold mb-1">Dashboard</h1>
 
-<div class="relative w-full max-w-2xl aspect-video mt-4">
-  <iframe
-    class="absolute top-0 left-0 w-full h-full"
-    src="https://www.youtube.com/embed/67Q_-BRhUpI?si=GwTHKeKkhwHGCmMv"
-    title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen
-  ></iframe>
-</div>
-
-{#if !data.isActiveCustomer}
-  <div class="alert alert-error max-w-lg mt-2">
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      class="stroke-current shrink-0 h-6 w-6"
-      fill="none"
-      viewBox="0 0 24 24"
-      ><path
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
-        d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"
-      /></svg
-    >
-    <div>
-      <div class="font-bold">You currently have no plan</div>
-      <div class="my-2">
-        You have not purchased a plan. X Efficiency is a premium software.
-      </div>
-      <div class="my-2">
-        Please visit <a href="/account/billing" class="link">billing</a> and select
-        plan to download X Efficiency.
-      </div>
+<p>Analytics + database coming soon.</p>
+<a
+  href="https://chromewebstore.google.com/detail/x-efficiency/klgcdbmldddogdpemiedckcmebgmpiml"
+  target="_blank"
+  class="inline-block mt-6 group"
+>
+  <button
+    class="btn btn-primary btn-lg gap-2 group-hover:btn-primary-focus transition-all duration-200 flex-col p-8 hover:shadow-xl hover:-translate-y-0.5 active:translate-y-0 active:shadow-md rounded-xl"
+  >
+    <div class="flex items-center gap-2">
+      <img src="/images/chromelogo.svg" alt="Chrome Logo" class="w-6 h-6" />
+      Download Chrome Extension
     </div>
-  </div>
-{/if}
-
-{#if data.isActiveCustomer}
-  <div class="alert alert-info max-w-lg mt-4">
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      class="stroke-current shrink-0 h-6 w-6"
-      fill="none"
-      viewBox="0 0 24 24"
-    >
-      <path
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
-        d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-      />
-    </svg>
-    <div>
-      <div class="font-bold">Download & Installation Instructions</div>
-      <div class="my-2">
-        1. Download the X Efficiency extension by clicking the link below<br />
-        2. Unzip the downloaded file<br />
-        3. Open Chrome and go to chrome://extensions/<br />
-        4. Enable "Developer mode" in the top right<br />
-        5. Click "Load unpacked" and select the unzipped folder
-      </div>
-      <div class="my-2">
-        <a
-          href="https://www.dropbox.com/scl/fi/myeyg7vxusotx42jvzm6g/xefficiency.zip?rlkey=ahq2p5titj37w03nzrdoihiqe&st=ixrsrlj5&dl=0"
-          target="_blank"
-          class="link font-semibold">Download "X Efficiency" Web Extension</a
-        >
-      </div>
-    </div>
-  </div>
-{/if}
+    <div class="text-sm opacity-80">Refresh x.com after installing</div>
+  </button>
+</a>
 
 <div class="mt-8">
   <h2 class="text-xl font-bold mb-6">

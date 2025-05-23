@@ -2,6 +2,7 @@ import { error, redirect } from "@sveltejs/kit"
 import {
   fetchSubscription,
   getOrCreateCustomerId,
+  updateUserSubscription
 } from "../../subscription_helpers.server"
 import type { PageServerLoad } from "./$types"
 
@@ -35,6 +36,20 @@ export const load: PageServerLoad = async ({
     console.error("Error fetching subscription", fetchErr)
     error(500, {
       message: "Unknown error. If issue persists, please contact us.",
+    })
+  }
+
+  // Update user's subscription status in profiles table
+  const { error: updateError } = await updateUserSubscription({
+    supabaseServiceRole,
+    userId: user.id,
+    plan: primarySubscription ? 'pro' : 'free',
+    lastStripeSync: new Date()
+  });
+
+  if (updateError) {
+    return error(500, {
+      message: "Error updating user subscription.",
     })
   }
 

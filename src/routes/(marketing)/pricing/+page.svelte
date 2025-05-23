@@ -37,7 +37,7 @@
           <div class="collapse-content">
             <p>
               Yup! It is undetectable by 𝕏. No one has ever been banned for
-              using X Efficiency.
+              using DM Dad.
             </p>
           </div>
         </div>

@@ -1,5 +1,5 @@
-export const WebsiteName: string = "X Efficiency"
-export const WebsiteBaseUrl: string = "https://x-efficiency.fantasma.dev"
+export const WebsiteName: string = "DM Dad"
+export const WebsiteBaseUrl: string = "https://dmdad.com"
 export const WebsiteDescription: string =
-  "X Efficiency | Software + service company for 𝕏. Get more from 𝕏 in less time."
+  "Send 450 DMs per day automatically and find unlimited accounts safely from your browser for free."
 export const CreateProfileStep: boolean = true

@@ -51,6 +51,8 @@ export interface Database {
           company_name: string | null
           website: string | null
           unsubscribed: boolean
+          plan: string | null
+          last_stripe_sync: Date | null
         }
         Insert: {
           avatar_url?: string | null
@@ -60,6 +62,8 @@ export interface Database {
           company_name?: string | null
           website?: string | null
           unsubscribed: boolean
+          plan: string | null
+          last_stripe_sync: Date | null
         }
         Update: {
           avatar_url?: string | null
@@ -68,7 +72,9 @@ export interface Database {
           updated_at?: string | null
           company_name?: string | null
           website?: string | null
-          unsubscribed: boolean
+          unsubscribed?: boolean
+          plan?: string | null
+          last_stripe_sync?: Date | null
         }
         Relationships: [
           {

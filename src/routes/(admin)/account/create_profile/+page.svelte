@@ -100,7 +100,7 @@
             id="website"
             name="website"
             type="text"
-            placeholder="e.g. grow audience, book calls"
+            placeholder="e.g. grow audience, book calls, find accounts"
             class="{fieldError(form, 'website')
               ? 'input-error'
               : ''} mt-1 input input-bordered w-full max-w-xs"

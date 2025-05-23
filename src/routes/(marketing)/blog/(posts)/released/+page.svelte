@@ -1,4 +1,4 @@
-<p class="lead">X Efficiency is officially launched.</p>
+<p class="lead">DM Dad is officially launched.</p>
 
 <p>
   It's been 3 months in the making and we're excited to finally launch this site
@@ -18,6 +18,8 @@
 </p>
 
 <p>
-  Explore our plans and get started experiencing the benefits of X efficiency
-  today <a href="/pricing" class="link">here</a>.
+  Explore our plans and get started experiencing the benefits of DM Dad today <a
+    href="/pricing"
+    class="link">here</a
+  >.
 </p>

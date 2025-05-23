@@ -10,7 +10,8 @@
 </script>
 
 <div class="navbar bg-base-100 container mx-auto">
-  <div class="flex-1">
+  <div class="flex-1 inline-flex items-center gap-2">
+    <img src="/favicon.png" class="w-12 h-12" />
     <a class="btn btn-ghost normal-case text-xl" href="/">{WebsiteName}</a>
   </div>
   <div class="flex-none">
@@ -85,11 +86,11 @@
     </nav>
     <aside>
       <span class="footer-title opacity-80">About</span>
-      <a class="max-w-[260px]" href="https://getkiln.ai">
-        <div class="font-bold text-3xl mb-1">X Efficiency</div>
-        <div class="font-medium mb-3">Automate your 𝕏 workflow</div>
+      <a class="max-w-[260px]" href="https://dmdad.com">
+        <div class="font-bold text-3xl mb-1">DM Dad</div>
+        <div class="font-medium mb-3">Maximize DM Outreach Speed</div>
         <div class="font-light">
-          Bulk DMs, profile finder, and more. Get more done on 𝕏 in less time.
+          Collect, filter, and DM high-value accounts.
         </div>
       </a>
     </aside>
